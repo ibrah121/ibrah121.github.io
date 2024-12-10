@@ -1,0 +1,237 @@
+{
+  "assemblies": [
+    {
+      "name": "JKT-6423",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "JKT-6423-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "JKT-6423-Genome.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "JKT-6423-Genome.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "BAV-Ch",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "BAV-Ch-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "BAV-Ch-Genome.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "BAV-Ch-Genome.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "KDV-JKT-7075",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "KDV-JKT-7075-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "KDV-JKT-7075-Genome.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "KDV-JKT-7075-Genome.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {
+    "theme": {
+      "palette": {
+        "primary": {
+          "main": "#344e41"
+        },
+        "secondary": {
+          "main": "#3a5a40"
+        },
+        "tertiary": {
+          "main": "#588157"
+        },
+        "quaternary": {
+          "main": "#14213d"
+        }
+      }
+    }
+  },
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "JKT-6423-Annotations.gff",
+      "name": "JKT-6423-Annotations.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "JKT-6423-Annotations.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "JKT-6423-Annotations.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "JKT-6423"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "BAV-Ch-Annotations.gff",
+      "name": "BAV-Ch-Annotations.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "BAV-Ch-Annotations.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "BAV-Ch-Annotations.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "BAV-Ch"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "KDV-JKT-7075-Annotations.gff",
+      "name": "KDV-JKT-7075-Annotations.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "KDV-JKT-7075-Annotations.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "KDV-JKT-7075-Annotations.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "KDV-JKT-7075"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "synteny_JKT-6423_vs_BAV-Ch",
+      "name": "synteny_JKT-6423_vs_BAV-Ch",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "synteny_JKT-6423_vs_BAV-Ch.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "BAV-Ch",
+          "JKT-6423"
+        ]
+      },
+      "assemblyNames": [
+        "BAV-Ch",
+        "JKT-6423"
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "name": "MsaView",
+      "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
+    },
+    {
+      "name": "Protein3d",
+      "url": "https://unpkg.com/jbrowse-plugin-protein3d/dist/jbrowse-plugin-protein3d.umd.production.min.js"
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "JKT-6423-index",
+      "ixFilePath": {
+        "uri": "trix/JKT-6423.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/JKT-6423.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/JKT-6423_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "JKT-6423"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "BAV-Ch-index",
+      "ixFilePath": {
+        "uri": "trix/BAV-Ch.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/BAV-Ch.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/BAV-Ch_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "BAV-Ch"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "KDV-JKT-7075-index",
+      "ixFilePath": {
+        "uri": "trix/KDV-JKT-7075.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/KDV-JKT-7075.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/KDV-JKT-7075_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "KDV-JKT-7075"
+      ]
+    }
+  ]
+}

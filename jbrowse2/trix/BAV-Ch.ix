@@ -1,0 +1,25 @@
+1 ["seg1%3A1..3762"|"BAV-Ch-Annotations.gff"|"segment%201"|"seg1%3A1..3762"],1
+10 ["seg10%3A1..977"|"BAV-Ch-Annotations.gff"|"segment%2010"|"seg10%3A1..977"],1
+11 ["seg11%3A1..867"|"BAV-Ch-Annotations.gff"|"segment%2011"|"seg11%3A1..867"],1
+12 ["seg12%3A1..861"|"BAV-Ch-Annotations.gff"|"segment%2012"|"seg12%3A1..861"],1
+2 ["seg2%3A1..2883"|"BAV-Ch-Annotations.gff"|"segment%202"|"seg2%3A1..2883"],1
+3 ["seg3%3A1..2232"|"BAV-Ch-Annotations.gff"|"3"|"seg3%3A1..2232"],1
+4 ["seg4%3A1..1787"|"BAV-Ch-Annotations.gff"|"4"|"seg4%3A1..1787"],1
+5 ["seg5%3A1..1560"|"BAV-Ch-Annotations.gff"|"5"|"seg5%3A1..1560"],1
+6 ["seg6%3A1..1671"|"BAV-Ch-Annotations.gff"|"segment%206"|"seg6%3A1..1671"],1
+7 ["seg7%3A1..1137"|"BAV-Ch-Annotations.gff"|"segment%207"|"seg7%3A1..1137"],1
+8 ["seg8%3A1..1119"|"BAV-Ch-Annotations.gff"|"segment%208"|"seg8%3A1..1119"],1
+9 ["seg9%3A1..1100"|"BAV-Ch-Annotations.gff"|"segment%209"|"seg9%3A1..1100"],1
+seg10:1..977 ["seg10%3A1..977"|"BAV-Ch-Annotations.gff"|"segment%2010"|"seg10%3A1..977"],1
+seg11:1..867 ["seg11%3A1..867"|"BAV-Ch-Annotations.gff"|"segment%2011"|"seg11%3A1..867"],1
+seg12:1..861 ["seg12%3A1..861"|"BAV-Ch-Annotations.gff"|"segment%2012"|"seg12%3A1..861"],1
+seg1:1..3762 ["seg1%3A1..3762"|"BAV-Ch-Annotations.gff"|"segment%201"|"seg1%3A1..3762"],1
+seg2:1..2883 ["seg2%3A1..2883"|"BAV-Ch-Annotations.gff"|"segment%202"|"seg2%3A1..2883"],1
+seg3:1..2232 ["seg3%3A1..2232"|"BAV-Ch-Annotations.gff"|"3"|"seg3%3A1..2232"],1
+seg4:1..1787 ["seg4%3A1..1787"|"BAV-Ch-Annotations.gff"|"4"|"seg4%3A1..1787"],1
+seg5:1..1560 ["seg5%3A1..1560"|"BAV-Ch-Annotations.gff"|"5"|"seg5%3A1..1560"],1
+seg6:1..1671 ["seg6%3A1..1671"|"BAV-Ch-Annotations.gff"|"segment%206"|"seg6%3A1..1671"],1
+seg7:1..1137 ["seg7%3A1..1137"|"BAV-Ch-Annotations.gff"|"segment%207"|"seg7%3A1..1137"],1
+seg8:1..1119 ["seg8%3A1..1119"|"BAV-Ch-Annotations.gff"|"segment%208"|"seg8%3A1..1119"],1
+seg9:1..1100 ["seg9%3A1..1100"|"BAV-Ch-Annotations.gff"|"segment%209"|"seg9%3A1..1100"],1
+segment ["seg1%3A1..3762"|"BAV-Ch-Annotations.gff"|"segment%201"|"seg1%3A1..3762"],1 ["seg10%3A1..977"|"BAV-Ch-Annotations.gff"|"segment%2010"|"seg10%3A1..977"],2 ["seg11%3A1..867"|"BAV-Ch-Annotations.gff"|"segment%2011"|"seg11%3A1..867"],3 ["seg12%3A1..861"|"BAV-Ch-Annotations.gff"|"segment%2012"|"seg12%3A1..861"],4 ["seg2%3A1..2883"|"BAV-Ch-Annotations.gff"|"segment%202"|"seg2%3A1..2883"],5 ["seg6%3A1..1671"|"BAV-Ch-Annotations.gff"|"segment%206"|"seg6%3A1..1671"],6 ["seg7%3A1..1137"|"BAV-Ch-Annotations.gff"|"segment%207"|"seg7%3A1..1137"],7 ["seg8%3A1..1119"|"BAV-Ch-Annotations.gff"|"segment%208"|"seg8%3A1..1119"],8 ["seg9%3A1..1100"|"BAV-Ch-Annotations.gff"|"segment%209"|"seg9%3A1..1100"],9
